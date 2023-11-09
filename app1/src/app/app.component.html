@@ -1,0 +1,11 @@
+<div>
+    <h1>Two way data binding eg</h1>
+    name :: {{name}} <br />
+    age :: {{age}}
+
+    <hr />
+
+    Name: <input type="text" [(ngModel)]="name"/> <br />
+    Age: <input type="text" [(ngModel)]="age"/> <br/>
+
+    <input type="button" value = "Submit" (click)="handleSubmitBtn()"/>
